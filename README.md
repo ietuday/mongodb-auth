@@ -37,3 +37,6 @@ db.grantRolesToUser("test", ["root"]);
 ## 7.start mongo with auth
 sudo mongod --auth --dbpath=/var/lib/mongodb2
 
+### 8. For mongod service start issue
+sudo chown mongodb.mongodb -R /var/lib/mongodb
+
